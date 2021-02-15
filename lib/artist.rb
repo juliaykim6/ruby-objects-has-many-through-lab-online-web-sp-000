@@ -13,7 +13,7 @@ class Artist
     @@all
   end
 
-  def songs 
-    song.artsit == self 
+  def songs
+    song.artsit == self
   end
 end

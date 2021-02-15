@@ -13,7 +13,7 @@ class Genre
     @@all
   end
 
-  def songs 
+  def songs
     Song.all {|song| songs.genre == self}
   end
 
